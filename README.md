@@ -1,9 +1,21 @@
+# Markdown articles tool 0.1.3
+
+Free command line utility, written in Python, designed to help you manage online and downloaded Markdown documents (e.g., articles).
+The Markdown Articles Tool is available for macOS, Windows, and Linux.
+
+## Оригинальный репозиторий
+
+https://github.com/artiomn/markdown_articles_tool
+
+## Команда запуска
+
+`markdown_tool.py -d ./processed_images -O processed.md -a -n .original_file.md`
+
 [![Python package](https://github.com/artiomn/markdown_images_downloader/workflows/Python%20package/badge.svg)](https://github.com/artiomn/markdown_articles_tool/actions/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Stargazers](https://img.shields.io/github/stars/artiomn/markdown_images_downloader.svg)](https://github.com/artiomn/markdown_images_downloader/stargazers)
 [![Forks](https://img.shields.io/github/forks/artiomn/markdown_images_downloader.svg)](https://github.com/artiomn/markdown_images_downloader/network/members)
 [![Latest Release](https://img.shields.io/github/v/release/artiomn/markdown_images_downloader.svg)](https://github.com/artiomn/markdown_images_downloader/releases)
-
 
 # Markdown articles tool 0.1.3
 
@@ -25,7 +37,6 @@ Tool can be used:
 
 Also, if you want to use separate functions, you can just import the package.
 
-
 ## Installation
 
 ### From the repository
@@ -44,7 +55,6 @@ pip3 install -r markdown_articles_tool/requirements.txt
 ```
 pip3 install markdown-tool
 ```
-
 
 ## Usage
 
@@ -104,14 +114,12 @@ Run example 3 (run on a folder):
 find content/ -name "*.md" | xargs -n1 ./markdown_tool.py
 ```
 
-
 ## Changes
 
 ### 0.1.3
 
 - Mostly technical fixes, necessary to work GUI tool.
 - Now the tool has [Qt-based GUI](https://github.com/artiomn/mat_gui).
-
 
 ### 0.1.2
 
@@ -122,12 +130,10 @@ find content/ -name "*.md" | xargs -n1 ./markdown_tool.py
 - Code was significantly refactored.
 - Some auto tests were added.
 
-
 ### 0.0.8
 
 `-D` (deduplication) option was changed in the version 0.0.8. Now option is not boolean, it has several values: "disabled", "names_hashing", "content_hash".
   Long option name was changed too: now it's `deduplication-type`.
-
 
 # Internals
 
