@@ -9,4 +9,6 @@ https://github.com/artiomn/markdown_articles_tool
 
 ## Команда запуска
 
+**Перед конвертацией нужно убрать пробелы в названии каталога с картинками**
+
 `markdown_tool.py -d ./processed_images -O processed.md -a -n .original_file.md`
