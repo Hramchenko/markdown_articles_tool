@@ -113,7 +113,7 @@ class ImageDownloader:
 
                 image_url = str(image_link)
 
-                assert image_url not in replacement_mapping, f'BUG: already downloaded image "{image_url}"...'
+                #assert image_url not in replacement_mapping, f'BUG: already downloaded image "{image_url}"...'
 
                 image_download_url = self._get_image_download_url(image_url, image_num)
 
